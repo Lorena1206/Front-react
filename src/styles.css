@@ -1,0 +1,120 @@
+* {
+  font-family: "Gruppo", sans-serif;
+}
+
+
+.divButtonAdd{
+  display: flex;
+  justify-content: end;
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  width: 5vw;
+}
+
+.divButtonsAccion{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10%;
+}
+
+.div-button-accion-in{
+  display: flex;
+    justify-content: center;
+}
+
+body {
+  width: 100vw !important;
+  height: 100vh !important;
+  background: rgb(63,94,251);
+  background-image: url('./assets/images/image.jpg');
+  padding: 10%;
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh; 
+}
+
+button.btn.btn-primary {
+  margin: 1%;
+  position: relative;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(97, 32, 158);
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  height: 0%;  
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.card p {
+  background-color: white;
+  flex: 1;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.texto{
+  font-size: 219%
+}
+
+.botton-g{
+  width: 150px;
+  height: 50px;
+  /* Tamaño de fuente agrandado */
+  font-size: 16px;
+  /* Otros estilos para el botón */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
